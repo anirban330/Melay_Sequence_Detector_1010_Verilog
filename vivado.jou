@@ -1,0 +1,118 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Nov  3 22:42:41 2024
+# Process ID: 9508
+# Current directory: C:/Users/DELL/Desktop/melay_detector
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1156 C:\Users\DELL\Desktop\melay_detector\melay_detector.xpr
+# Log file: C:/Users/DELL/Desktop/melay_detector/vivado.log
+# Journal file: C:/Users/DELL/Desktop/melay_detector\vivado.jou
+# Running On        :Swaggerani
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+# CPU Frequency     :2712 MHz
+# CPU Physical cores:2
+# CPU Logical cores :4
+# Host memory       :8449 MB
+# Swap memory       :8589 MB
+# Total Virtual     :17039 MB
+# Available Virtual :11717 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/DELL/Desktop/melay_detector/melay_detector.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_close_sim
+ompile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source melay_tb.tcl
+close_sim
+launch_simulation
+source melay_tb.tcl
+close_sim
+launch_simulation
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source melay_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source melay_tb.tcl
+close_sim
+launch_simulation
+source melay_tb.tcl
+close_sim
+launch_simulation
+source melay_tb.tcl
+run all
+close_sim
+launch_simulation
+source melay_tb.tcl
+current_wave_config {Untitled 7}
+add_wave {{/melay_tb/uut}} 
+save_wave_config {C:/Users/DELL/Desktop/melay_detector/melay_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/DELL/Desktop/melay_detector/melay_tb_behav.wcfg
+set_property xsim.view C:/Users/DELL/Desktop/melay_detector/melay_tb_behav.wcfg [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config C:/Users/DELL/Desktop/melay_detector/melay_tb_behav.wcfg
+source melay_tb.tcl
+save_wave_config {C:/Users/DELL/Desktop/melay_detector/melay_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/DELL/Desktop/melay_detector/melay_tb_behav.wcfg
+source melay_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/DELL/Desktop/melay_detector/melay_tb_behav.wcfg
+source melay_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/DELL/Desktop/melay_detector/melay_tb_behav.wcfg
+source melay_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/DELL/Desktop/melay_detector/melay_tb_behav.wcfg
+source melay_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/DELL/Desktop/melay_detector/melay_tb_behav.wcfg
+source melay_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/DELL/Desktop/melay_detector/melay_tb_behav.wcfg
+source melay_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/DELL/Desktop/melay_detector/melay_tb_behav.wcfg
+source melay_tb.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+open_wave_config C:/Users/DELL/Desktop/melay_detector/melay_tb_behav.wcfg
+source melay_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/DELL/Desktop/melay_detector/melay_tb_behav.wcfg
+source melay_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/DELL/Desktop/melay_detector/melay_tb_behav.wcfg
+source melay_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/DELL/Desktop/melay_detector/melay_tb_behav.wcfg
+source melay_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/DELL/Desktop/melay_detector/melay_tb_behav.wcfg
+source melay_tb.tcl
+close_sim
