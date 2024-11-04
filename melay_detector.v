@@ -3,7 +3,7 @@
 // Company:Apsis Solution 
 // Engineer: Anirban Nath
 // Create Date: 03.11.2024 18:24:29
-// Design Name: Melay Overlapping Sequence Detector
+// Design Name: Melay Non-Overlapping Sequence Detector(1010)
 // Module Name: melay_detector
 //////////////////////////////////////////////////////////////////////////////////
 
