@@ -1,6 +1,5 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company:Apsis Solution 
 // Engineer: Anirban Nath
 // Create Date: 03.11.2024 18:24:29
 // Design Name: Melay Non-Overlapping Sequence Detector(1010)
